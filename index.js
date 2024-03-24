@@ -1,5 +1,3 @@
-// backend/app.js
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -28,7 +26,6 @@ db.once("open", () => console.log("Connected to MongoDB"));
 // Routes
 app.use("/citizens", citizenRoutes);
 
-// Start the server
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

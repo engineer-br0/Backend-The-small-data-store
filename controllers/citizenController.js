@@ -1,5 +1,3 @@
-// backend/controllers/citizenController.js
-
 const Citizen = require("../models/Citizen");
 
 // Get all citizens

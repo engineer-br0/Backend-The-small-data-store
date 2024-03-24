@@ -1,5 +1,3 @@
-// backend/models/Citizen.js
-
 const mongoose = require("mongoose");
 
 const citizenSchema = new mongoose.Schema({
